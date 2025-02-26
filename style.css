@@ -1,0 +1,94 @@
+/* mais sobre view port */
+/* https://www.alura.com.br/artigos/guia-de-unidades-no-css */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+/* guia flex-box */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box
+}
+.container {
+    display: flex;
+}
+.titulo-destaque {
+    color: #22D4FD;
+    font-family: "Montserrat", serif
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 10%;
+}
+
+.container__conteudo__titulo {
+    font-family:  "Krona One", serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container__conteudo__texto {
+    margin-top: 50px;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.container__conteudo {
+    width: 650px;
+}
+.container_conteudo__titulo {
+    font-size: 36px;
+    font-family: 'krona one', sans-serif;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_links_link {
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 16px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
+
+
+.container_links_link_x{
+
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 16px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+}
